@@ -1,0 +1,2 @@
+commit	val_bpb	memory_gb	status	description
+c80aa8b	1.241512	6.2	keep	baseline (A2000, batch=8 no-ckpt, n_embd=512, n_layer=8)
