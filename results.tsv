@@ -1,2 +1,6 @@
 commit	val_bpb	memory_gb	status	description
 c80aa8b	1.241512	6.2	keep	baseline (A2000, batch=8 no-ckpt, n_embd=512, n_layer=8)
+20cd98b	1.256619	8.5	discard	widen n_embd 512->768 (ASPECT_RATIO=96): bigger model, fewer steps, worse val_bpb (+0.015)
+1a3cb83	1.231748	9.7	keep	shrink n_embd 512->384 (ASPECT_RATIO=48): smaller model, 29 steps (vs 24), val_bpb -0.010
+e8c8b37	1.232927	9.7	discard	all-sliding windows SSSL->SSSS: no speedup, slight val_bpb regression (+0.001)
+d62e210	1.211574	9.7	keep	WARMDOWN_RATIO 0.5->0.25: more training at peak LR, val_bpb -0.020
