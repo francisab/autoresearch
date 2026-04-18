@@ -114,6 +114,7 @@ def _get_gpu_peak_flops(gpu_name):
         ("3080", 119.5e12),
         ("3060", 51.0e12),
         ("3070", 81.1e12),
+        ("a2000", 31.2e12),
     )
     for key, flops in lookup:
         if key in name:
