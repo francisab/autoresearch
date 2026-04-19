@@ -44,3 +44,4 @@ db83739	0.640056	10.9	discard	DEPTH 3->2 + ASPECT_RATIO 48->128: 289 steps but c
 3ad2f98	0.611008	10.9	keep	UNEMBEDDING_LR 0.008->0.005 at 228 steps: -0.0009 marginal
 7b74b6e	0.609139	10.9	keep	EMBEDDING_LR 1.0->0.7 at 228 steps: -0.0019
 a44c9cc	0.627415	10.9	discard	EMBEDDING_LR 0.7->0.5: too low +0.018
+ad2d1c0	0.608941	10.9	keep	WEIGHT_DECAY 0.2->0.1: -0.0002 marginal
