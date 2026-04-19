@@ -67,3 +67,4 @@ b11011b	0.618724	10.9	discard	TOTAL_BATCH_SIZE retune to 2^16 without ve_gate: s
 b1ce3e0	0.610296	10.9	discard	DEPTH 3->4 with simpler model: still worse +0.005
 f81eb30	0.615501	10.9	discard	logits softcap 15->30: less clipping hurt +0.010
 447c3ce	0.625986	10.9	discard	softcap 15->10: tighter hurt +0.021
+33b1ad1	0.625410	10.9	discard	Muon ns_steps 5->3: orthogonalization quality hurt +0.020
