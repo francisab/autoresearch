@@ -22,3 +22,4 @@ ace5484	1.035159	9.7	keep	DEPTH 8->6: shallower model = 34 steps (vs 29), val_bp
 9546b06	0.735121	5.8	keep	DEPTH 6->4: 57 steps (vs 34), val_bpb -0.300 MASSIVE
 f999001	0.694869	10.9	keep	DEPTH 4->3: 67 steps, model_dim=256 now, val_bpb -0.040
 1c9dcb3	0.716981	10.9	discard	DEPTH 3->2: too small, 117 steps but +0.022 (below capacity floor)
+3b1666f	0.711476	10.9	discard	MATRIX_LR 0.10->0.15 at DEPTH=3: 0.10 already optimal (+0.017)
