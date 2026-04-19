@@ -24,3 +24,4 @@ f999001	0.694869	10.9	keep	DEPTH 4->3: 67 steps, model_dim=256 now, val_bpb -0.0
 1c9dcb3	0.716981	10.9	discard	DEPTH 3->2: too small, 117 steps but +0.022 (below capacity floor)
 3b1666f	0.711476	10.9	discard	MATRIX_LR 0.10->0.15 at DEPTH=3: 0.10 already optimal (+0.017)
 d989eb5	0.736580	9.7	discard	HEAD_DIM 128->64: model_dim shrunk to 128 via rounding, too small (+0.042)
+53e79af	0.809556	11.0	discard	ASPECT_RATIO 48->96 at DEPTH=3: wider model 17.9M, 51 steps, +0.115
