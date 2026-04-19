@@ -47,3 +47,4 @@ a44c9cc	0.627415	10.9	discard	EMBEDDING_LR 0.7->0.5: too low +0.018
 ad2d1c0	0.608941	10.9	keep	WEIGHT_DECAY 0.2->0.1: -0.0002 marginal
 994198b	0.608375	10.9	keep	WEIGHT_DECAY 0.1->0.05: -0.0006
 7a99549	0.611601	10.9	discard	WEIGHT_DECAY 0.05->0.0: floor reached +0.003
+b4f0e29	0.625369	10.9	discard	SCALAR_LR 1.0->0.7 at 228 steps: higher still best +0.017
