@@ -64,3 +64,4 @@ crash	0.0	0.0	crash	exp61: removed ve_gate use without removing Linear -> Muon c
 79d1d5c	0.662461	10.9	discard	disable value_embeds: lost 4M params, quality hurt +0.057
 92e9867	0.608280	10.9	discard	weight tying lm_head<->wte: slight regression +0.003
 b11011b	0.618724	10.9	discard	TOTAL_BATCH_SIZE retune to 2^16 without ve_gate: still +0.013
+b1ce3e0	0.610296	10.9	discard	DEPTH 3->4 with simpler model: still worse +0.005
