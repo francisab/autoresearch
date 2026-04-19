@@ -19,3 +19,4 @@ f03ac45	1.156415	9.7	discard	WEIGHT_DECAY 0.2->0.0: WD was actually helping (+0.
 707a565	1.061372	9.7	keep	UNEMBEDDING_LR 0.004->0.008: lm_head benefits from higher LR, val_bpb -0.012
 6599ef5	1.091190	9.7	discard	UNEMBEDDING_LR 0.008->0.016: past optimum (+0.030)
 ace5484	1.035159	9.7	keep	DEPTH 8->6: shallower model = 34 steps (vs 29), val_bpb -0.026
+9546b06	0.735121	5.8	keep	DEPTH 6->4: 57 steps (vs 34), val_bpb -0.300 MASSIVE
