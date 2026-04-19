@@ -40,3 +40,4 @@ a6236dc	0.630562	10.9	keep	TOTAL_BATCH_SIZE 2^19->2^18: 121 steps (vs 67), val_b
 db83739	0.640056	10.9	discard	DEPTH 3->2 + ASPECT_RATIO 48->128: 289 steps but capacity loss +0.028
 95452c2	0.611933	10.9	keep	MATRIX_LR 0.10->0.08 at 228 steps: -0.0004 marginal
 1e85e15	0.612784	10.9	discard	MATRIX_LR 0.08->0.06: slight regression +0.001
+8e29d8b	0.635951	10.9	discard	UNEMBEDDING_LR 0.008->0.012 at 228 steps: too high +0.024
