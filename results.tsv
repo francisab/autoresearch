@@ -72,3 +72,4 @@ f81eb30	0.615501	10.9	discard	logits softcap 15->30: less clipping hurt +0.010
 63ec016	0.609750	10.9	discard	Muon ns_steps 5->7: slower without quality gain +0.004
 7dab9a4	0.610510	10.9	discard	WEIGHT_DECAY 0.05->0.03: +0.005 (0.05 best)
 318ca83	0.612644	10.9	discard	Muon momentum ramp end 0.95->0.99: +0.007
+6e7b77f	0.616432	10.9	discard	remove x0_lambdas mixing: load-bearing +0.011
