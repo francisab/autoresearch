@@ -17,3 +17,4 @@ f03ac45	1.156415	9.7	discard	WEIGHT_DECAY 0.2->0.0: WD was actually helping (+0.
 36ec54b	1.072969	9.7	keep	EMBEDDING_LR 0.6->1.0: embeddings like high LR too, val_bpb -0.027
 7213d73	1.137953	9.7	discard	EMBEDDING_LR 1.0->1.5: past optimum (+0.065)
 707a565	1.061372	9.7	keep	UNEMBEDDING_LR 0.004->0.008: lm_head benefits from higher LR, val_bpb -0.012
+6599ef5	1.091190	9.7	discard	UNEMBEDDING_LR 0.008->0.016: past optimum (+0.030)
