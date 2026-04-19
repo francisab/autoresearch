@@ -30,3 +30,4 @@ f82a960	0.791197	10.9	discard	SCALAR_LR 1.0->2.0: too high (+0.103)
 7e14bf0	0.697408	10.9	discard	HEAD_DIM 128->64 + ASPECT_RATIO 48->80 (n_head 2->4): more heads +0.010
 ec3619d	0.687388	10.9	keep	WARMDOWN_RATIO 0.10->0.05: -0.0004 marginal
 5600145	0.706529	10.9	discard	WARMDOWN_RATIO 0.05->0.0: too aggressive at DEPTH=3 (+0.019)
+ce6a17a	0.691169	10.9	discard	MATRIX_LR 0.10->0.12 at DEPTH=3: slight regression +0.004
