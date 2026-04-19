@@ -33,3 +33,4 @@ ec3619d	0.687388	10.9	keep	WARMDOWN_RATIO 0.10->0.05: -0.0004 marginal
 ce6a17a	0.691169	10.9	discard	MATRIX_LR 0.10->0.12 at DEPTH=3: slight regression +0.004
 6694f52	0.691228	10.9	discard	MATRIX_LR 0.10->0.08: slightly lower also worse +0.004 (0.10 confirmed optimal)
 d15c521	0.690967	10.9	discard	EMBEDDING_LR 1.0->1.2: slightly worse (+0.004)
+a6236dc	0.630562	10.9	keep	TOTAL_BATCH_SIZE 2^19->2^18: 121 steps (vs 67), val_bpb -0.057 BIG
