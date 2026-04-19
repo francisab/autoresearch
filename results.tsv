@@ -71,3 +71,4 @@ f81eb30	0.615501	10.9	discard	logits softcap 15->30: less clipping hurt +0.010
 5a1bfb2	0.618006	10.9	discard	WARMUP_RATIO 0->0.02 at 240 steps: still bad +0.013
 63ec016	0.609750	10.9	discard	Muon ns_steps 5->7: slower without quality gain +0.004
 7dab9a4	0.610510	10.9	discard	WEIGHT_DECAY 0.05->0.03: +0.005 (0.05 best)
+318ca83	0.612644	10.9	discard	Muon momentum ramp end 0.95->0.99: +0.007
