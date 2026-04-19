@@ -57,3 +57,4 @@ d7692a2	0.615715	10.9	discard	TOTAL_BATCH_SIZE 2^17->196608: +0.007 (2^17 is sha
 b4db5af	0.608656	10.9	discard	FINAL_LR_FRAC 0.0->0.1: noise-level regression +0.0003
 c79bd26	0.609991	10.9	discard	EMBEDDING_LR 0.7->0.8: slight worse +0.0016
 2c203c8	0.608567	10.9	discard	EMBEDDING_LR 0.7->0.6: +0.0002
+c49a320	0.630809	10.9	discard	GQA n_kv_head=num_heads//2: capacity loss +0.022
