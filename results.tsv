@@ -28,3 +28,4 @@ d989eb5	0.736580	9.7	discard	HEAD_DIM 128->64: model_dim shrunk to 128 via round
 eb5cd28	0.687770	10.9	keep	SCALAR_LR 0.5->1.0: -0.007
 f82a960	0.791197	10.9	discard	SCALAR_LR 1.0->2.0: too high (+0.103)
 7e14bf0	0.697408	10.9	discard	HEAD_DIM 128->64 + ASPECT_RATIO 48->80 (n_head 2->4): more heads +0.010
+ec3619d	0.687388	10.9	keep	WARMDOWN_RATIO 0.10->0.05: -0.0004 marginal
