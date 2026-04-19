@@ -51,3 +51,4 @@ b4f0e29	0.625369	10.9	discard	SCALAR_LR 1.0->0.7 at 228 steps: higher still best
 293958a	0.614835	10.9	discard	ADAM_BETAS (0.8,0.95)->(0.9,0.95) at 228 steps: still worse +0.006
 35e6a5f	0.610256	10.9	discard	MLP ReLU^2 -> SiLU: +0.002 (slight regression)
 7ef8a11	0.616077	10.9	discard	UNEMBEDDING_LR 0.005->0.003: too low +0.008
+5784481	0.620677	10.9	discard	HEAD_DIM 128->64 + ASPECT_RATIO 48->80 at 228 steps: still +0.012
