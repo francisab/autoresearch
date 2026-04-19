@@ -74,3 +74,4 @@ f81eb30	0.615501	10.9	discard	logits softcap 15->30: less clipping hurt +0.010
 318ca83	0.612644	10.9	discard	Muon momentum ramp end 0.95->0.99: +0.007
 6e7b77f	0.616432	10.9	discard	remove x0_lambdas mixing: load-bearing +0.011
 7ed1911	0.618593	10.9	discard	TOTAL_BATCH 2^17->2^16 + MATRIX_LR 0.08->0.05 paired: still noisy +0.013
+d130648	0.609446	10.9	discard	WEIGHT_DECAY 0.05->0.08: +0.004 (0.05 confirmed)
