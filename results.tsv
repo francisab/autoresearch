@@ -62,3 +62,4 @@ c49a320	0.630809	10.9	discard	GQA n_kv_head=num_heads//2: capacity loss +0.022
 crash	0.0	0.0	crash	exp61: removed ve_gate use without removing Linear -> Muon crashed on None grad
 8343925	0.605434	10.9	keep	remove ve_gate (simpler arch, +12 steps): -0.003
 79d1d5c	0.662461	10.9	discard	disable value_embeds: lost 4M params, quality hurt +0.057
+92e9867	0.608280	10.9	discard	weight tying lm_head<->wte: slight regression +0.003
