@@ -10,3 +10,4 @@ fe37366	1.203474	9.7	discard	WARMDOWN_RATIO 0.10->0.0: no warmdown is worse (+0.
 5780791	1.099437	9.7	keep	MATRIX_LR 0.07->0.10: val_bpb -0.011 (diminishing returns)
 8534116	1.141747	9.7	discard	MATRIX_LR 0.10->0.14: past optimum (+0.042)
 14f72be	1.153226	9.7	discard	MATRIX_LR 0.10->0.12: past optimum (+0.054)
+330593e	1.117467	9.7	discard	ADAM_BETAS (0.8,0.95)->(0.9,0.95): more momentum hurt (+0.018)
