@@ -55,3 +55,4 @@ b4f0e29	0.625369	10.9	discard	SCALAR_LR 1.0->0.7 at 228 steps: higher still best
 e1fb4a7	0.610110	10.9	discard	Muon momentum 0.85->0.95 vs 0.9->0.95: slight regression +0.002
 d7692a2	0.615715	10.9	discard	TOTAL_BATCH_SIZE 2^17->196608: +0.007 (2^17 is sharp optimum)
 b4db5af	0.608656	10.9	discard	FINAL_LR_FRAC 0.0->0.1: noise-level regression +0.0003
+c79bd26	0.609991	10.9	discard	EMBEDDING_LR 0.7->0.8: slight worse +0.0016
