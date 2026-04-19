@@ -4,3 +4,4 @@ c80aa8b	1.241512	6.2	keep	baseline (A2000, batch=8 no-ckpt, n_embd=512, n_layer=
 1a3cb83	1.231748	9.7	keep	shrink n_embd 512->384 (ASPECT_RATIO=48): smaller model, 29 steps (vs 24), val_bpb -0.010
 e8c8b37	1.232927	9.7	discard	all-sliding windows SSSL->SSSS: no speedup, slight val_bpb regression (+0.001)
 d62e210	1.211574	9.7	keep	WARMDOWN_RATIO 0.5->0.25: more training at peak LR, val_bpb -0.020
+fe37366	1.203474	9.7	discard	WARMDOWN_RATIO 0.10->0.0: no warmdown is worse (+0.004), need some decay
