@@ -35,3 +35,4 @@ ce6a17a	0.691169	10.9	discard	MATRIX_LR 0.10->0.12 at DEPTH=3: slight regression
 d15c521	0.690967	10.9	discard	EMBEDDING_LR 1.0->1.2: slightly worse (+0.004)
 a6236dc	0.630562	10.9	keep	TOTAL_BATCH_SIZE 2^19->2^18: 121 steps (vs 67), val_bpb -0.057 BIG
 41f55fb	0.612367	10.9	keep	TOTAL_BATCH_SIZE 2^18->2^17: 228 steps, val_bpb -0.018
+4286f1d	0.630984	10.9	discard	TOTAL_BATCH_SIZE 2^17->2^16: too noisy, 447 steps but +0.019
