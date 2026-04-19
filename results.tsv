@@ -38,3 +38,4 @@ a6236dc	0.630562	10.9	keep	TOTAL_BATCH_SIZE 2^19->2^18: 121 steps (vs 67), val_b
 4286f1d	0.630984	10.9	discard	TOTAL_BATCH_SIZE 2^17->2^16: too noisy, 447 steps but +0.019
 7505e6e	0.631692	10.9	discard	TOTAL_BATCH_SIZE 2^17->98304: smaller still worse +0.019 (2^17 optimal)
 db83739	0.640056	10.9	discard	DEPTH 3->2 + ASPECT_RATIO 48->128: 289 steps but capacity loss +0.028
+95452c2	0.611933	10.9	keep	MATRIX_LR 0.10->0.08 at 228 steps: -0.0004 marginal
